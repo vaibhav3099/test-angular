@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  imageUrl: string="assets/photo.jpeg";
   constructor() { }
 
   ngOnInit() {
